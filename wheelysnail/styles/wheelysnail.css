@@ -1,0 +1,117 @@
+﻿body 
+{
+    margin-top: 70px;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p, li
+{
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2 
+{
+	#FF9900!important;
+}
+
+h1 a
+{
+	text-decoration: none !important;
+	color: #FF9900;
+}
+
+h1 a:visited
+{
+	text-decoration: none !important;
+	color: #FF9900;
+}
+
+h1 a:hover
+{
+	text-decoration: none !important;
+	color: #FF9900;
+}
+
+h1 a:active
+{
+	text-decoration: none !important;
+	color: #FF9900;
+}
+
+h2 
+{
+	font-size: 20px;
+}
+
+.activecategory
+{
+    font-weight : bold;
+}
+
+header, section, footer, aside, nav, main, article, figure 
+{ 
+	display: block; 
+}
+
+.carousel-control.left, .carousel-control.right 
+{
+    background-image: none!important;
+    font-color: black!important;
+}
+
+h1 .logo 
+{
+	padding: 5px 5px 5px 5px;
+}
+
+.carousel-caption {
+ 	position: static!important; 
+    color: #555!important;
+    text-shadow: none!important; 
+}
+
+.list-caption
+{
+	padding: 5px 5px 5px 5px;
+}
+
+#about-images 
+{
+	padding: 15px 15px 15px 15px;
+}
+
+.img-thumbnail 
+{
+	border-color: #FFF;
+}
+
+.btn btn-primary navbar-toggle collapsed
+{
+	background-color: #555;
+}
+
+.navbar-toggle
+{
+	background-color: #2069e8!important;
+}
+
+footer p
+{
+	font-size: 80%;
+}
+
+[ng-click],
+[data-ng-click]
+{
+    cursor: pointer;
+}
+
+.carousel-control .icon-prev, .carousel-control .glyphicon-chevron-left
+{
+	left:0%!important;
+}
+
+.carousel-control .icon-next, .carousel-control .glyphicon-chevron-right
+{
+	right:0%!important;
+}

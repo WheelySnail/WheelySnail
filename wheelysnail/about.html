@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+	<meta charset="utf-8">
+    <title>WheelySnail</title>
+    <link href="styles/wheelysnail.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="page">
+        <header class="container-fluid">
+            <div id="menu" class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button class="btn btn-primary navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                    <div id="logo">
+                       <h1><a href="index.html">wheelysnail</a></h1>
+                    </div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav"><a href="index.html">Home</a></li>
+                        <li class="nav active"><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section id="main-content" class="container">
+        	<div class="row">
+            	<section id="about-images" class="col-sm-6">
+                	<section class="row body-image">
+                    	<img src="Images/sketchpad.jpg" alt="Sketchpad" class="img-thumbnail" />
+                	</section>
+            	</section>
+
+            	<section id="sidebar" class="col-sm-6">
+                        <p>These pictures start their lives as small doodles drawn with an orange bic. </p>
+                        <p>I've been sketching in my free time for years, and thought the time had come to set some of the doodles free.</p>
+                        <p>More to come over the following year as I slowly scan in some sketchbooks.</p>
+                        <p>Like the note below says, feel free to use them for for any non-commercial use, but please acknowledge where they came from :)</p>
+            	</section>
+            </div>
+    	</section>         
+           
+        <footer class="container-fluid footer">
+            <hr />
+            <p>Copyright Alice Waddicor 2014. Feel free to use these pictures for non-commercial purposes as long as you acknowledge the source.</p>
+        </footer>
+
+    </div>
+		<script src="lib/angular/angular.min.js"></script>
+    	<script src="js/app.js"></script>
+    	<script src="js/controllers/homeCtrl.js"></script>
+        <script src="lib/jquery/jquery-2.1.0.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/wheelysnail.js" script-type="text/javascript"></script>
+</body>
+</html>
