@@ -11,7 +11,7 @@ p, li
 
 h1, h2 
 {
-	#FF9900!important;
+	color:#FF9900!important;
 }
 
 h1 a
@@ -38,9 +38,9 @@ h1 a:active
 	color: #FF9900;
 }
 
-h2 
+#categories-heading
 {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .activecategory
@@ -92,7 +92,33 @@ h1 .logo
 
 .navbar-toggle
 {
-	background-color: #2069e8!important;
+	background-color: #FF9900!important;
+}
+
+.navbar-default .navbar-nav > .active > a
+{
+	color:#FF9900!important;
+}
+
+.navbar-nav > .active > a
+{
+	color:#FF9900!important;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+	color:#FF9900!important;
+}
+
+.navbar-default .navbar-nav > li > a
+{
+	color:#FF9900!important;
+}
+
+.navbar-default .navbar-nav > li > a:hover
+{
+	color:#FFF!important;
+	background-color:#FF9900!important;
 }
 
 footer p
